@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 /* Navigation */
 header {
@@ -11,6 +12,9 @@ header {
     align-items: center;
     padding: 0 24px;
     margin: 16px;
+}
+body {
+    background-color: aqua;
 }
 #colmar {
     font-weight: bold;
@@ -208,5 +212,8 @@ footer a {
 
     #thesis-right {
         display: none;
+    }
+    body {
+        background-color: red;
     }
 }
