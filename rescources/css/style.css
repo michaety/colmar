@@ -1,0 +1,212 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+header {
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+    padding: 0 24px;
+    margin: 16px;
+}
+#colmar {
+    font-weight: bold;
+}
+#academy {
+    color:grey;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    transform: translate(0, 50%);
+    
+}
+#desktop {
+    display: block;
+    float: right;
+    transform: translate(0, -50%);
+    justify-content: space-between;
+}
+a {
+    padding-right: 16px;
+}
+#mobile {
+    display: none;
+}
+
+/* Learn something new everyday - Section 1*/
+#learn {
+    background-color: rgba(134, 134, 253, 0.486);
+    width: 100%;
+    display: flex;
+
+}
+#learn img{
+    width: 60%;
+    float: left;
+    margin: 32px 24px;
+}
+#learn div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px 0 24px 0;
+}
+#button {
+
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* It doesn't hurt to keep practicing - Section 2*/
+
+#hurt {
+    display:flex;
+    padding-top: 32px;
+    padding-left: 24px;
+}
+
+#left img {
+    width: 60%;
+}
+
+#left {
+    width: 60%;
+}
+
+#right {
+    width: 40%;
+    height: auto;    
+}
+
+#right img {
+    width: 35%;
+    height:auto;
+    padding: 16px;
+}
+
+.right-text {
+    width: 65%;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: flex;
+}
+
+/* Start learning - Section 3*/
+
+#start {
+    background-color: gray;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#start h2 {
+    text-align: center;
+}
+
+#start div {
+    display: inline-block;
+    height: auto;
+    padding: 0px 72px;
+}
+
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* Thesis exhibit - Section 4*/
+
+#thesis div {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-direction: column;
+}
+
+#thesis h2 {
+    text-align: center;
+}
+
+#thesis-left {
+    width: 60%;
+    display: block;
+    padding: 24px;
+}
+
+#thesis-right {
+    flex-direction: column;
+}
+
+/* Footer - Section 5*/
+
+footer p {
+    float: left;
+}
+
+footer a {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    #mobile {
+        display: flex;
+        color: yellow;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header {
+        background-color: white;
+        height: 50px;
+        display: flex;
+    }
+    #logo {
+        display: none;
+    }
+    #desktop {
+        display: none;
+    }
+    #learn img {
+        width: 100%;
+        display: flex;
+        margin: auto 0;
+        padding: auto 0;
+    }
+    #learn {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+    }
+    #left {
+        display: none;
+    }
+    .desktop img {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+    .start img {
+        display: none;
+    }
+    footer a{
+        display: none;
+    }
+
+    #thesis-right {
+        display: none;
+    }
+}
