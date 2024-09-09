@@ -115,7 +115,6 @@ header {
 /* Start learning - Section 3*/
 
 #start {
-    background-color: gray;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -256,7 +255,7 @@ footer a {
 
     #right {
         width: 94%;
-        padding-bottom: 64px;
+        padding-bottom: 16px;
         padding-top: 16px;
     }
     
@@ -273,6 +272,19 @@ footer a {
         text-align: start;
     }
 
+    #hurt {
+        padding-bottom: 16px;
+    }
+    #start {
+        padding-top: 16px;
+    }
+    .start {
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        background-color: aliceblue;
+        border: solid white 8px;
+    }
     .start img {
         display: none;
     }
@@ -283,10 +295,15 @@ footer a {
         display: none;
     }
 
-    #thesis-right {
-        display: none;
+    #left-info {
+        width: 91%;
     }
-    #thesis-left-text {
+
+    #left-info h3, #left-info p {
+        display: none;
+        width:100%;
+    }
+    #right-info {
         display: none;
     }
     #thesis video {
