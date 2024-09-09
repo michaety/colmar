@@ -149,23 +149,19 @@ header {
     display: flex;
 
 }
-
 #exhibit {
     text-align: center;
     padding: 32px;
 }
-
 #left-info {
     width: 60%;
     height: auto;
     padding-left: 24px;
 }
-
 #thesis video {
     width: 100%;
     height: auto;
 }
-
 #thesis img {
     width:35%;
     height:auto;
@@ -173,16 +169,14 @@ header {
 }
 #right-info {
     width:40%;
-}
-.right-info {
-    width: 100%;  
-    display:flex;
+    flex-direction: column;
+    display: flex;
 }
 
-.right-info h3, .right-info p {
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: column;
+.right-info {
+    padding: 16px;
+    align-items: center;
+    display: flex;
 }
 
 /* Footer - Section 5*/
@@ -287,7 +281,7 @@ footer a {
         padding-bottom: 24px;
         background-color: aliceblue;
         border: solid white 8px;
-        width: 100%;
+        width: 95%;
     }
     .start img {
         display: none;
@@ -309,6 +303,9 @@ footer a {
     }
     #right-info {
         display: none;
+    }
+    #thesis {
+        width: 100%;
     }
     #thesis video {
         width: 100%;
