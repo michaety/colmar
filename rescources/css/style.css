@@ -91,18 +91,16 @@ header {
 
 #right {
     width: 40%;
-    height: auto;    
 }
 
 #right img {
-    width: 35%;
-    height:auto;
+    width: 40%;
+    height: 40%;
     padding: 16px;
 }
 
 .right-text {
     width: 65%;
-    display: block;
     padding-bottom: 8px;
 }
 
@@ -202,9 +200,13 @@ footer p {
 }
 
 footer a {
-    justify-content: center;
-    align-items: end;
+    padding: 5px;
+}
+
+#tp {
     float: right;
+    justify-content: space-evenly;
+    padding: 5px;
 }
 
 @media screen and (max-width: 800px) {
