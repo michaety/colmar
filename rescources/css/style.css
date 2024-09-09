@@ -239,6 +239,9 @@ footer a {
         flex-flow: wrap;
         align-items: center;
     }
+    #learn div {
+        padding: 16px;
+    }
     #left {
         display: none;
     }
@@ -247,7 +250,29 @@ footer a {
     }
     .mobile {
         display: flex;
+        height: 30%;
+        width: 100%;
     }
+
+    #right {
+        width: 94%;
+        padding-bottom: 64px;
+        padding-top: 16px;
+    }
+    
+    #right img {
+        width: 100%;
+        height: auto;
+        padding: 0px 16px;
+        align-items: center;
+    }
+    
+    .right-text {
+        width: 100%;
+        padding: 16px;
+        text-align: start;
+    }
+
     .start img {
         display: none;
     }
