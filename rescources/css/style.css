@@ -115,33 +115,25 @@ header {
 /* Start learning - Section 3*/
 
 #start {
-    padding-top: 32px;
+    padding-top: 24px;
     padding-bottom: 32px;
+    display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
 }
 
-#start h2 {
+#start-learning {
     text-align: center;
 }
 
-#start div {
-    height: auto;
-    padding: 32px 72px;
-    width: auto;
-}
-
 .start {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: white;
     padding: 24px;
-    justify-content: space-around;
-    width: auto;
-}
-
-#start img {
+    width: 20%;
     height: auto;
-    width: auto;
+    border: solid aquamarine 32px;
+    padding: 32px 72px;
+    justify-content: space-between;
 }
 
 /* Thesis exhibit - Section 4*/
@@ -158,12 +150,12 @@ header {
 #left-info {
     width: 60%;
     height: auto;
+    padding-left: 24px;
 }
 
 #thesis video {
     width: 100%;
     height: auto;
-    padding: 24px;
 }
 
 #thesis img {
@@ -172,17 +164,15 @@ header {
     padding: 16px;
 }
 #right-info {
-    display: block;
     width:40%;
     height:auto;
     padding:24px;
 
 }
 .right-info {
-    width: 40%;
+    width: 100%;
     height: auto;   
-    display:flex;
-    
+    display:flex; 
 }
 
 /* Footer - Section 5*/
