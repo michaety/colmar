@@ -147,6 +147,7 @@ header {
 
 #thesis {
     display: flex;
+
 }
 
 #exhibit {
@@ -168,18 +169,20 @@ header {
 #thesis img {
     width:35%;
     height:auto;
-    padding: 16px;
+    padding: 16px 16px;
 }
 #right-info {
     width:40%;
-    height:auto;
-    padding:24px;
-
 }
 .right-info {
-    width: 100%;
-    height: auto;   
-    display:flex; 
+    width: 100%;  
+    display:flex;
+}
+
+.right-info h3, .right-info p {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 /* Footer - Section 5*/
