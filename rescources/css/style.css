@@ -8,10 +8,7 @@ html {
 header {
     background-color: white;
     height: 64px;
-    width: 100%;
-    align-items: center;
-    padding: 0 24px;
-    margin: 16px;
+    padding-top: 16px;
 }
 
 #colmar {
@@ -23,17 +20,19 @@ header {
 #logo {
     display: flex;
     align-items: center;
-    transform: translate(0, 50%);
-    
+    float:left;
+    padding-left: 24px;
 }
 #desktop {
     display: block;
     float: right;
-    transform: translate(0, -50%);
     justify-content: space-between;
+    height: 32px;
+    padding-right: 8px;
 }
-a {
+#desktop a {
     padding-right: 16px;
+    width:100%;
 }
 #mobile {
     display: none;
@@ -41,10 +40,9 @@ a {
 
 /* Learn something new everyday - Section 1*/
 #learn {
-    background-color: rgba(134, 134, 253, 0.486);
+    background-color: rgba(148, 148, 148, 0.486);
     width: 100%;
     display: flex;
-
 }
 #learn img{
     width: 60%;
@@ -56,27 +54,39 @@ a {
     flex-wrap: wrap;
     margin: 32px 0 24px 0;
 }
-#button {
 
-    padding: 1px;
+#learn p {
+    flex-wrap: wrap;
+    text-align:start;
+    width: 650%
+}
+
+#button {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+    color: white;
 }
 
 /* It doesn't hurt to keep practicing - Section 2*/
 
 #hurt {
     display:flex;
-    padding-top: 32px;
-    padding-left: 24px;
+    padding: 32px 0;
 }
 
 #left img {
-    width: 60%;
+    width: 100%;
 }
 
 #left {
     width: 60%;
+    padding: 0 24px;
 }
 
 #right {
@@ -132,53 +142,68 @@ a {
     width: auto;
 }
 
+#start img {
+    height: auto;
+    width: auto;
+}
+
 /* Thesis exhibit - Section 4*/
 
+#thesis {
+    display: flex;
+}
+
 #exhibit {
-    display: flex; 
-}
-
-#thesis div {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
-#thesis h2 {
     text-align: center;
+    padding: 32px;
 }
 
-#thesis-left {
+#left-info {
     width: 60%;
-    padding: 24px;
-    display: block;
-}
-
-#thesis video {
-    width:100%;
     height: auto;
 }
 
-#thesis-right {
-    display: block;
-    width: 40%
+#thesis video {
+    width: 100%;
+    height: auto;
+    padding: 24px;
 }
-.thesis-right-text {
-    display: block;
-    
-}
-#thesis-right img {
-    height:auto;
-    width: 35%;
 
+#thesis img {
+    width:35%;
+    height:auto;
+    padding: 16px;
+}
+#right-info {
+    display: block;
+    width:40%;
+    height:auto;
+    padding:24px;
+
+}
+.right-info {
+    width: 40%;
+    height: auto;   
+    display:flex;
+    
 }
 
 /* Footer - Section 5*/
+
+footer {
+    padding-left: 24px;
+    padding-top: 16px;
+    text-align: center;
+    justify-content: center;
+}
 
 footer p {
     float: left;
 }
 
 footer a {
+    justify-content: center;
+    align-items: end;
     float: right;
 }
 
